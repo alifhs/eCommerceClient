@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/register_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quick Deals"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold|italic"
+
+        />
+
+    <EditText
+        android:id="@+id/register_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_textView"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="enter your name"
+        android:background="@drawable/inputs_design"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:inputType="text"
+        android:textSize="20sp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_name_input"
+        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
+
+        android:hint="enter your phone number"
+        android:background="@drawable/inputs_design"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:inputType="phone"
+        android:textSize="20sp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_phone_number_input"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:hint="enter your password"
+        android:background="@drawable/inputs_design"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/register_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solidbuttons"
+        android:layout_below="@+id/register_password"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:layout_margin="10dp"
+
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+
+
+        />
+
+</RelativeLayout>

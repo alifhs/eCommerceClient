@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrderActivity">
+
+    <TextView
+        android:id="@+id/shipping_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shipping Details"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/shipping_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inputs_design"
+        android:layout_below="@+id/shipping_text"
+        android:padding="10dp"
+        android:hint="User Name"
+        android:inputType="text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="50dp"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/shipping_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shipping_userName"
+        android:background="@drawable/inputs_design"
+        android:padding="10dp"
+        android:hint="Updated Phone Number"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/shipping_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inputs_design"
+        android:layout_below="@+id/shipping_phoneNumber"
+        android:padding="10dp"
+        android:hint="Shipping Address"
+        android:inputType="text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/shipping_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inputs_design"
+        android:layout_below="@+id/shipping_Address"
+        android:padding="10dp"
+        android:hint="Shipping City"
+        android:inputType="text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/shipping_order_now_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shipping_city"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/solidbuttons"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Order Now"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</RelativeLayout>

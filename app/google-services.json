@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "161339974467",
+    "firebase_url": "https://quickdeals-f7166.firebaseio.com",
+    "project_id": "quickdeals-f7166",
+    "storage_bucket": "quickdeals-f7166.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161339974467:android:65e3b9507cfedeb63d45f6",
+        "android_client_info": {
+          "package_name": "com.example.quickdeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161339974467-matqabglatqs1reda6j156iv4kv3fuqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quickdeals",
+            "certificate_hash": "3016ebbb44f0832d0413d1a0019780b7a8711f3e"
+          }
+        },
+        {
+          "client_id": "161339974467-pbtbrngbkl4npk6cv4ce523mjptojnfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quickdeals",
+            "certificate_hash": "4d85451cd34e5db199979d75aa9a348a9d9f82f4"
+          }
+        },
+        {
+          "client_id": "161339974467-u6ohmtd0uui4o6jmfpkfji0oobjqud96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ769vg7yVyk7zt7ECoqp_wPYEvTKN1j0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161339974467-u6ohmtd0uui4o6jmfpkfji0oobjqud96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

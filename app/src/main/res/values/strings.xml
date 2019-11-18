@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quick Deals</string>
+    <string name="drawer_closed">drawer_closed</string>
+    <string name="drawer_open">drawer_open</string>
+</resources>
